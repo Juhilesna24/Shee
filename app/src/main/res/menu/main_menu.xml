@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/language_en"
+        android:title="English"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_hi"
+        android:title="Hindi"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_gu"
+        android:title="Gujarathi"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_kn"
+        android:title="Kanada"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_ml"
+        android:title="Malayalam"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_ta"
+        android:title="Tamil"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_te"
+        android:title="Telugu"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+</menu>

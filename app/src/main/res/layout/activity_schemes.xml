@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schemes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mypc.Shee.SchemesActivity"
+    android:background="@drawable/background"
+    android:weightSum="1">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:text="Senior Citizen"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:onClick="s1"
+            android:background="@drawable/background"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/Seniorcitizen"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:text="Pregnent Ladies"
+            android:onClick="s2"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:background="@drawable/background"
+            android:id="@+id/PregnentLadies"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/Seniorcitizen"
+            android:layout_alignParentTop="true"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold"
+            android:layout_toRightOf="@+id/Seniorcitizen" />
+
+        <Button
+            android:text="Differentlyabled"
+            android:onClick="s3"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:background="@drawable/background"
+            android:id="@+id/Differentlyabled"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:layout_below="@+id/Seniorcitizen"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Transgenders"
+            android:onClick="s4"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:background="@drawable/background"
+            android:layout_below="@+id/PregnentLadies"
+            android:layout_toRightOf="@+id/Seniorcitizen"
+            android:id="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/Differentlyabled"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false" />
+
+        <Button
+            android:text="Widowed"
+            android:onClick="s5"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:background="@drawable/background"
+            android:id="@+id/Widowed"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/Differentlyabled"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="General"
+            android:onClick="s6"
+            android:layout_width="160dp"
+            android:layout_height="105dp"
+            android:background="@drawable/background"
+            android:layout_below="@+id/button4"
+            android:layout_toRightOf="@+id/Widowed"
+            android:id="@+id/NormalWomens"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/Widowed"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

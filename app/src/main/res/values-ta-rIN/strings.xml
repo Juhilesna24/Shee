@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">She</string>
+    <string name="Schemes1">Schemes</string>
+    <string name="Education1">Education</string>
+    <string name="Enterpreners1">Enterprener</string>
+    <string name="Basic_forms">Basic Forms</string>
+    <string name="Health1">Health and Hygine</string>
+    <string name="Safety1">Safety</string>
+
+</resources>

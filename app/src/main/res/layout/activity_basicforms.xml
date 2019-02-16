@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_basicforms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.mypc.Shee.BasicformsActivity">
+
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:background="@drawable/done6"
+        android:onClick="o1"
+        android:src="@drawable/ic_action_bank"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton" />
+
+    <TextView
+        android:text="Bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/Bank"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:onClick="o2"
+        android:background="@drawable/done3"
+        android:src="@drawable/ic_action_train"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton3" />
+
+    <TextView
+        android:text="Train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/Train"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:onClick="o3"
+        android:layout_height="130dp"
+        android:background="@drawable/done5"
+        app:srcCompat="@drawable/ic_action_exams"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton4" />
+
+    <TextView
+        android:text="Govt.Exams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/PostOffice"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:onClick="o4"
+        android:background="@drawable/done1"
+        android:src="@drawable/ic_action_aadhar"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Aadhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/aadhar"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

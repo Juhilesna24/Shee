@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mypc.Shee.BankActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:background="@drawable/done6"
+        android:text="Deposite"
+        android:onClick="dep"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/button6" />
+
+    <Button
+        android:text="Withdraw"
+        android:onClick="with"
+        android:background="@drawable/done2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/button7" />
+</LinearLayout>
+
